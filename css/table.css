@@ -1,0 +1,34 @@
+#quiz 
+        {
+		    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		    border-collapse: collapse;
+		    width: 100%;
+		    font-size: 10px;
+		}
+
+		#quiz td, #quiz th 
+		{
+		    border: 0px solid #ddd;
+		    padding: 8px;
+		    text-align: center;
+		}
+
+		#quiz tr:nth-child(even)
+		{
+			background-color: #f2f2f2;
+		}
+
+		#quiz tr:hover 
+		{
+			background-color: #ddd;
+		}
+
+		#quiz th 
+		{
+		    padding-top: 12px;
+		    padding-bottom: 12px;
+		    text-align: left;
+		    background-color: #56c8ff;
+		    color: white;
+		    text-align: center;
+		}
